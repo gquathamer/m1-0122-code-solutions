@@ -6,15 +6,23 @@
   <body>
     <h1>Coding Form!</h1>
     <form action="" method="get">
-      <label for="email-input">Email:</label><br />
-      <input type="email" name="email" id="email-input"><br />
-      <label for="coding-select">Why is coding cool?</label><br />
-      <select name="coding" id="coding-select">
-        <option value="option">Select an option</option>
-        <option value="fun">Because it's fun</option>
-        <option value="interesting">Because it's interesting</option>
-        <option value="powerful">Because it's powerful</option>
-      </select>
+      <div>
+        <label for="email-input">Email:</label>
+        <div>
+          <input type="email" name="email" id="email-input">
+        </div>
+      </div>
+      <div>
+        <label for="coding-select">Why is coding cool?</label>
+        <div>
+          <select name="coding" id="coding-select">
+            <option value="option">Select an option</option>
+            <option value="fun">Because it's fun</option>
+            <option value="interesting">Because it's interesting</option>
+            <option value="powerful">Because it's powerful</option>
+          </select>
+        </div>
+      </div>
       <div>
         <p>Favorite language (choose one)</p>
         <input type="radio" name="language" id="html-radio">
@@ -29,8 +37,12 @@
         <input type="checkbox" name="info" id="info-signup">
         <label for="info-signup">Sign me up!</label>
       </div>
-      <label for="comments-section">Comments</label><br />
-      <textarea name="comments" id="comment-section"></textarea><br />
+      <div>
+        <label for="comments-section">Comments</label>
+        <div>
+          <textarea name="comments" id="comment-section"></textarea>
+        </div>
+      </div>
       <input type="submit" name="submit" value="Submit">
     </form>
   </body>
