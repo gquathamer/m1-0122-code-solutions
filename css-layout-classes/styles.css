@@ -1,0 +1,40 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-two-thirds {
+  flex-basis: 66%;
+}
+
+.column-one-fourth {
+  flex-basis: (100% / 4);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-family: Nunito, sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: Nunito, sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: Nunito, sans-serif;
+  font-weight: 700;
+}
