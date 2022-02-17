@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Four Column Layout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="row flex-wrap justify-content-center">
+    <h2 class="full-width align-text">How It Works</h2>
+    <section class="column-quarter display-flex flex-direction-column">
+      <div class="display-flex large-image-row-column justify-content-center">
+        <img src="./images/screen-1.png" alt="phone screen">
+      </div>
+      <div class="display-flex small-image-row-column justify-content-center light-padding">
+        <img src="./images/switch-icon.png" alt="switch">
+      </div>
+      <p class="bold align-text big-font">App Switching</p>
+      <p class="align-text small-font">Toggles all your apps on and off.</p>
+    </section>
+    <section class="column-quarter display-flex flex-direction-column">
+      <div class="display-flex large-image-row-column justify-content-center">
+        <img src="./images/screen-2.png" alt="phone screen">
+      </div>
+      <div class="display-flex small-image-row-column justify-content-center light-padding">
+        <img src="./images/filter-icon.png" alt="switch">
+      </div>
+      <p class="bold align-text big-font">Trip Filtering</p>
+      <p class="align-text small-font">Evaluates your trip requests.</p>
+    </section>
+    <section class="column-quarter display-flex flex-direction-column">
+      <div class="display-flex large-image-row-column justify-content-center">
+        <img src="./images/screen-3.png" alt="phone screen">
+      </div>
+      <div class="display-flex small-image-row-column justify-content-center light-padding">
+        <img src="./images/slider-icon.png" alt="switch">
+      </div>
+      <p class="bold align-text big-font">Service Filters</p>
+      <p class="align-text small-font">Accepts only your ideal trips.</p>
+    </section>
+    <section class="column-quarter display-flex flex-direction-column">
+      <div class="display-flex large-image-row-column justify-content-center">
+        <img src="./images/screen-4.png" alt="phone screen">
+      </div>
+      <div class="display-flex small-image-row-column justify-content-center light-padding">
+        <img src="./images/bars-icon.png" alt="switch">
+      </div>
+      <p class="bold align-text big-font">Stats + Mileage</p>
+      <p class="align-text small-font">Tracks your trips across all apps.</p>
+    </section>
+  </main>
+</body>
+</html>
