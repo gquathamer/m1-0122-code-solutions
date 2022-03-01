@@ -113,8 +113,17 @@ button {
   padding: 3em;
 }
 
-.get-started h1, .get-started p {
+.half-width {
   width: 50%;
+}
+
+.about-us-header {
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("./images/about-us/about-us-header.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  padding: 3em;
 }
 
 .white-smoke {
@@ -130,6 +139,10 @@ button {
   font-size: 0.9em;
 }
 
+.light-font {
+  font-weight: lighter;
+}
+
 .gray-background {
   background-color: #FAFAFA;
 }
@@ -140,6 +153,14 @@ button {
 
 .black-text {
   color: black;
+}
+
+.blue-text {
+  color: #294464;
+}
+
+.gray-text {
+  color: #50514F;
 }
 
 .line-height-bigger {
